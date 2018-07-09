@@ -15,7 +15,7 @@ function getHTML(options, callback) {
     });
 
     response.on("end", function() {
-      printHTML(body);
+      callback(body);
       console.log("Response stream complete.");
     });
   });
