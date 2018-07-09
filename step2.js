@@ -28,5 +28,3 @@ function getAndPrintHTML() {
 }
 
 getAndPrintHTML();
-
-// module.exports = getAndPrintHTML;

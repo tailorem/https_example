@@ -1,6 +1,4 @@
 var https = require("https");
-// var getAndPrintHTML = require("https_example2.js");
-
 
 function getAndPrintHTMLChunks() {
 
